@@ -1,0 +1,28 @@
+{
+  "name": "client_side_project_manager",
+  "description": "online file system far from local touch",
+  "main": "main.js",
+  "authors": [
+    "piyush_mishra"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jsgrid": "js-grid#^1.5.3",
+    "lodash": "^4.17.4",
+    "knockout": "^3.4.2",
+    "select2": "^4.0.3"
+  },
+  "devDependencies": {
+    "requirejs": "^2.3.3",
+    "bootstrap": "^3.3.7"
+  }
+}

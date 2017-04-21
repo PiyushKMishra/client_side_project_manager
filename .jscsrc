@@ -1,0 +1,72 @@
+{
+  "disallowCapitalizedComments": true,
+  "disallowImplicitTypeConversion": ["numeric", "boolean", "binary", "string"],
+  "disallowMixedSpacesAndTabs": true,
+  "disallowMultiLineTernary": true,
+  "disallowMultipleLineBreaks": true,
+  "disallowMultipleLineStrings": true,
+  "disallowMultipleSpaces": {"allowEOLComments": true},
+  "disallowNewlineBeforeBlockStatements": true,
+  "disallowOperatorBeforeLineBreak": ["+", "."],
+  "disallowPaddingNewLinesAfterBlocks": true,
+  "disallowPaddingNewLinesAfterUseStrict": true,
+  "disallowPaddingNewlinesBeforeKeywords": [
+    "do",
+    "for",
+    "if",
+    "else",
+    "switch",
+    "case",
+    "try",
+    "catch",
+    "void",
+    "while",
+    "with",
+    "return",
+    "typeof",
+    "function"
+],
+"disallowSpaceAfterLineComment": true,
+"disallowSpaceAfterObjectKeys": true,
+"disallowSpaceAfterPrefixUnaryOperators": ["++", "--", "+", "-", "~", "!"],
+"disallowSpaceBeforePostfixUnaryOperators": ["++", "--"],
+"disallowSpaceBeforeSemicolon": { "allExcept": [ "(" ] },
+"disallowSpacesInCallExpression": true,
+"disallowSpacesInsideParenthesizedExpression": true,
+"disallowSpacesInsideTemplateStringPlaceholders": true,
+"disallowTrailingComma": true,
+"disallowTrailingWhitespace": true,
+"disallowUnusedParams": true,
+"disallowUnusedVariables": true,
+"maximumLineLength": { "value": 180, "allExcept": [ "urlComments", "require" ] },
+"requireAlignedMultilineParams": "firstParam",
+"requireCamelCaseOrUpperCaseIdentifiers": true,
+"requireCommaBeforeLineBreak": true,
+"requireCurlyBraces": [
+    "if",
+    "else",
+    "for",
+    "while",
+    "do",
+    "try",
+    "catch",
+    "case",
+    "default"
+],
+"requireDollarBeforejQueryAssignment": true,
+"requireDotNotation": true,
+"requireEarlyReturn": true,
+"requireImportAlphabetized": true,
+"requireLineBreakAfterVariableAssignment": true,
+"disallowSpacesInFunctionDeclaration": {
+    "beforeOpeningRoundBrace": true
+},
+"requireSpacesInFunctionDeclaration": {
+    "beforeOpeningCurlyBrace": true
+},
+"requireSpacesInAnonymousFunctionExpression": {
+    "beforeOpeningRoundBrace": true,
+    "beforeOpeningCurlyBrace": true
+},
+
+}
